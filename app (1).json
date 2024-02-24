@@ -1,87 +1,111 @@
 {
-      "name": "Fallen Robot",
-      "description": "Telegram Group Management Bot.",
-      "logo": "https://te.legra.ph/file/72e135da30a1a349f2844.jpg",
-      "keywords": [
-         "telegram",
-         "modular",
-         "group",
-         "manager",
-         "Fallen"
-      ],   
-   "repository": "https://github.com/AnonymousX1025/FallenRobot",
+   "name": "鈩曫潝糕劃饾晫饾晪饾晢 (饾煙饾暐饾暀 鈩嶐潟嗏剛饾晜饾敻饾斁饾敿)",
+   "description": "Waifu husbando game .",
+   "logo": "https://telegra.ph/file/bdf4b2b14f477d4553e9d.jpg",
+   "keywords": ["telegram", "modular", "group", "management", "鈩曫潝糕劃饾晫饾晪饾晢 (饾煙饾暐饾暀 鈩嶐潟嗏剛饾晜饾敻饾斁饾敿)"],
+   "repository": "https://github.com/ishu9805/WAIFU-HUSBANDO-CATCHER.git",
    "stack": "heroku-22",
    "addons": [
       {
+         "plan": "heroku-postgresql",
          "options": {
             "version": "12"
-         },
-         "plan": "heroku-postgresql"
+         }
       }
    ],
    "env": {
       "API_ID": {
-         "description": "Get this value from my.telegram.org/apps.",
+         "description": "Obtain this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "22792918"
       },
       "API_HASH": {
-         "description": "Get this value from my.telegram.org/apps.",
+         "description": "Obtain this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
-      },
-      "ALLOW_EXCL": {
-         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
-         "value": "True"
-      },
-      "CASH_API_KEY": {
-         "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
-         "required": true,
-         "value": ""
+         "value": "ff10095d2bb96d43d6eb7a7d9fc85f81"
       },
       "DEL_CMDS": {
-         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+         "description": "Set this to True to delete command messages from users without the necessary permissions.",
          "value": "True"
       },
       "ENV": {
-         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is.",
          "required": true,
          "value": "True"
       },
       "EVENT_LOGS": {
-         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+         "description": "Channel for event logs to note down important bot-level events. Recommend making this public. Example: '-123456'",
          "required": true,
-         "value": ""
+         "value": "-1002082803552"
+      },
+      "MESSAGE_DUMP": {
+         "description": "Support chat ID.",
+         "required": true,
+         "value": "-1002082803552"
       },
       "MONGO_DB_URI": {
-         "description": "Required for database connections.",
+         "description": "Required for MongoDB database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://"
+      },
+      "DATABASE_URL": {
+         "description": "Required for SQL database connections.",
+         "required": true,
+         "value": "postgres://"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": "6257270528"
       },
-      "START_IMG": {
-         "description": "Telegraph link of the image which will be shown at start command.",
-         "required": true,
-         "value": ""
+      "DEV_USERS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "required": false,
+         "value": "6257270528"
+      },
+      "DRAGONS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "required": false,
+         "value": "6257270528"
+      },
+      "STRICT_GBAN": {
+         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+         "value": "True"
+      },
+      "DEMONS": {
+         "description": "A space separated list of user IDs who can use Gban From Your Bot",
+         "required": false,
+         "value": "6257270528"
+      },
+      "TIGERS": {
+         "description": "A space separated list of user IDs who can not be banned by your Bot",
+         "required": false,
+         "value": "6257270528"
+      },
+      "WOLVES": {
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "required": false,
+         "value": "6257270528"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username. Users will reach out for assistance. Example: MyGroupChatUsernameBlah. Avoid pointing to Miko Support to prevent conflicts.",
          "required": true,
-         "value": "DevilsHeavenMF"
+         "value": "MUSIC_CHAT_GRP"
       },
-      "TIME_API_KEY": {
-         "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
+      "SUPPORT_ID": {
+         "description": "Support chat ID.",
          "required": true,
-         "value": ""
+         "value": "-1002082803552"
+      },
+      "DB_NAME": {
+         "description": "Your MongoDB name.",
+         "required": true,
+         "value": "narutoDB"
       },
       "TOKEN": {
-         "description": "Get bot token from @BotFather on TG",
+         "description": "Bot token obtained from @BotFather on Telegram.",
          "required": true,
-         "value": ""
+         "value": "7051461986:AAHOAv-SN8-UQzWwEUrjS98Jmxrim1gDB0k"
       }
    }
-}
+      }
