@@ -12,7 +12,7 @@ RARITY_MAP = {
     "1": "🔵 Common",
     "2": "🟣 Rare",
     "3": "🍄 Special",
-    "4": "🟢 Medium",
+    "4": "🔮 Premium",
     "5": "💮 Limited",
     "6": "🔮 Christmas",
     "7": "🏀 Basketball",
