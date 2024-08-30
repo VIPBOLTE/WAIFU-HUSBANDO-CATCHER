@@ -7,7 +7,7 @@ class Config(object):
     GROUP_ID = -1001529779762
     TOKEN = "7063220368:AAEty7C6Z0MrlmUpmPH81J-AhM7Jyum4oOI"
     mongo_url = "mongodb+srv://GOKU:MISSBHOPALI@goku.pzzsl8d.mongodb.net/?retryWrites=true&w=majority"
-    PHOTO_URL =["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
+    PHOTO_URL =["https://telegra.ph/file/44abc724240ff3cfc2d84.jpg"]
     SUPPORT_CHAT = "NAMIKAZECPAN"
     UPDATE_CHAT = "NAMIKAZECPAN"
     BOT_USERNAME = "GUESSEM_ALL_ROBOT"
