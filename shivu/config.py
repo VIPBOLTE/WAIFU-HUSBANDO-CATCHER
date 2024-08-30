@@ -10,10 +10,10 @@ class Config(object):
     PHOTO_URL =["https://telegra.ph/file/44abc724240ff3cfc2d84.jpg"]
     SUPPORT_CHAT = "ZTX_MAIN_CHATS"
     UPDATE_CHAT = "ZTX_ORG"
-    BOT_USERNAME = "GUESSEM_ALL_ROBOT"
+    BOT_USERNAME = "UtopiaSmartBot"
     CHARA_CHANNEL_ID = "-1002202172045"
     api_id = 23028479
-    api_hash = "f4f6272a85d0e50e39a24cb378be118d"
+    api_hash = "c1e6a93b04c0810a5c282d8d8d44ea6f"
 
     
 class Production(Config):
