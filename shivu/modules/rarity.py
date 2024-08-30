@@ -11,7 +11,7 @@ from shivu import collection, user_collection, application
 RARITY_MAP = {
     "1": "🔵 Common",
     "2": "🟣 Rare",
-    "3": "🟡 Legendary",
+    "3": "🍄 Special",
     "4": "🟢 Medium",
     "5": "💮 Limited",
     "6": "🔮 Christmas",
