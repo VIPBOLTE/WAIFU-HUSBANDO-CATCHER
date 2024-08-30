@@ -13,10 +13,7 @@ RARITY_MAP = {
     "2": "🟣 Rare",
     "3": "🍄 Special",
     "4": "🔮 Premium",
-    "5": "💮 Limited",
-    "6": "🔮 Christmas",
-    "7": "🏀 Basketball",
-    "8": "⚽ Football"
+    "5": "⚗ Limited",
 }
 
 selected_rarity = None
