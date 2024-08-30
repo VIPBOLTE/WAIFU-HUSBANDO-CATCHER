@@ -9,7 +9,7 @@ class Config(object):
     mongo_url = "mongodb+srv://GOKU:MISSBHOPALI@goku.pzzsl8d.mongodb.net/?retryWrites=true&w=majority"
     PHOTO_URL =["https://telegra.ph/file/44abc724240ff3cfc2d84.jpg"]
     SUPPORT_CHAT = "ZTX_MAIN_CHATS"
-    UPDATE_CHAT = "NAMIKAZECPAN"
+    UPDATE_CHAT = "ZTX_ORG"
     BOT_USERNAME = "GUESSEM_ALL_ROBOT"
     CHARA_CHANNEL_ID = "-1002004197830"
     api_id = 24074986
