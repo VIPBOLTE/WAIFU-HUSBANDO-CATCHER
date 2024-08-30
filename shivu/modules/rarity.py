@@ -9,7 +9,7 @@ from telegram.ext import CommandHandler, CallbackContext, CallbackQueryHandler
 from shivu import collection, user_collection, application
 
 RARITY_MAP = {
-    "1": "⚪ Common",
+    "1": "🔵 Common",
     "2": "🟣 Rare",
     "3": "🟡 Legendary",
     "4": "🟢 Medium",
