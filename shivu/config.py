@@ -12,7 +12,7 @@ class Config(object):
     UPDATE_CHAT = "ZTX_ORG"
     BOT_USERNAME = "GUESSEM_ALL_ROBOT"
     CHARA_CHANNEL_ID = "-1002202172045"
-    api_id = 24074986
+    api_id = 23028479
     api_hash = "f4f6272a85d0e50e39a24cb378be118d"
 
     
