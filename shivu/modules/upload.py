@@ -47,7 +47,6 @@ async def upload(update: Update, context: CallbackContext) -> None:
         except:
             await update.message.reply_text('Invalid URL.')
             return
-
         rarity_map = {1: "🔵 Common", 2: "🟣 Rare", 3: "🍄 Special", 4: "🔮 Premium", 5 "⚗ Limited"}
         try:
             rarity = rarity_map[int(args[3])]
